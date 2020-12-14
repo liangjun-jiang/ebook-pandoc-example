@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Liangjun Jiang" />
+  <meta name="keywords" content="golf, junior, train" />
+  <title>Teach and Train Junior Golfers</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="templates/epub.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Teach and Train Junior Golfers</h1>
+<p class="author">Liangjun Jiang</p>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#chapter-1-the-introduction">Chapter 1: the Introduction</a><ul>
+<li><a href="#section-1">Section 1</a></li>
+<li><a href="#section-2">Section 2</a></li>
+<li><a href="#section-2.1">section 2.1</a></li>
+<li><a href="#section-2.2">section 2.2</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="chapter-1-the-introduction">Chapter 1: the Introduction</h1>
+<p>What do you <em>say</em>? The date must fit on one line.</p>
+<p>All three metadata fields may contain standard inline formatting (italics, links, footnotes, etc.).</p>
+<p>Title blocks will always be parsed, but they will affect the output only when the –standalone (-s) option is chosen. In HTML output, titles will appear twice: once in the document head – this is the title that will appear at the top of the window in a browser – and once at the beginning of the document body. The title in the document head can have an optional prefix attached (–title-prefix or -T option). The title in the body appears as an H1 element with class “title”, so it can be suppressed or reformatted with CSS. If a title prefix is specified with -T and no title block appears in the document, the title prefix will be used by itself as the HTML title.</p>
+<p>The man page writer extracts a title, man page section number, and other header and footer information from the title line. The title is assumed to be the first word on the title line, which may optionally end with a (single-digit) section number in parentheses. (There should be no space between the title and the parentheses.) Anything after this is assumed to be additional footer and header text. A single pipe character (|) should be used to separate the footer text from the header text.</p>
+<figure>
+<img src="images/random.png" alt="random png" width="300" height="200" /><figcaption>random png</figcaption>
+</figure>
+<h2 id="section-1">Section 1</h2>
+<p>gotta something to say? The date must fit on one line.</p>
+<p>All three metadata fields may contain standard inline formatting (italics, links, footnotes, etc.).</p>
+<p>Title blocks will always be parsed, but they will affect the output only when the –standalone (-s) option is chosen. In HTML output, titles will appear twice: once in the document head – this is the title that will appear at the top of the window in a browser – and once at the beginning of the document body. The title in the document head can have an optional prefix attached (–title-prefix or -T option). The title in the body appears as an H1 element with class “title”, so it can be suppressed or reformatted with CSS. If a title prefix is specified with -T and no title block appears in the document, the title prefix will be used by itself as the HTML title.</p>
+<figure>
+<img src="images/random.png" alt="random png" width="300" height="200" /><figcaption>random png</figcaption>
+</figure>
+<p>The man page writer extracts a title, man page section number, and other header and footer information from the title line. The title is assumed to be the first word on the title line, which may optionally end with a (single-digit) section number in parentheses. (There should be no space between the title and the parentheses.) Anything after this is assumed to be additional footer and header text. A single pipe character (|) should be used to separate the footer text from the header text. Thus,</p>
+<h2 id="section-2">Section 2</h2>
+<p>gotta nothing to say! The date must fit on one line.</p>
+<p>All three metadata fields may contain standard inline formatting (italics, links, footnotes, etc.).</p>
+<p>Title blocks will always be parsed, but they will affect the output only when the –standalone (-s) option is chosen. In HTML output, titles will appear twice: once in the document head – this is the title that will appear at the top of the window in a browser – and once at the beginning of the document body. The title in the document head can have an optional prefix attached (–title-prefix or -T option). The title in the body appears as an H1 element with class “title”, so it can be suppressed or reformatted with CSS. If a title prefix is specified with -T and no title block appears in the document, the title prefix will be used by itself as the HTML title.</p>
+<p>The man page writer extracts a title, man page section number, and other header and footer information from the title line. The title is assumed to be the first word on the title line, which may optionally end with a (single-digit) section number in parentheses. (There should be no space between the title and the parentheses.) Anything after this is assumed to be additional footer and header text. A single pipe character (|) should be used to separate the footer text from the header text. Thus, # Chapter 2: the Conclusion Just be sure that the YAML file begins with — and ends with — or ….) Alternatively, you can use the –metadata-file option. Using that approach however, you cannot reference content (like footnotes) from the main markdown input document.</p>
+<p>Metadata will be taken from the fields of the YAML object and added to any existing document metadata. Metadata can contain lists and objects (nested arbitrarily), but all string scalars will be interpreted as Markdown. Fields with names ending in an underscore will be ignored by pandoc. (They may be given a role by external processors.) Field names must not be interpretable as YAML numbers or boolean values (so, for example, yes, True, and 15 cannot be used as field names).</p>
+<p>A document may contain multiple metadata blocks. If two metadata blocks attempt to set the same field, the value from the second block will be taken.</p>
+<p>When pandoc is used with -t markdown to create a Markdown document, a YAML metadata block will be produced only if the -s/–standalone option is used. All of the metadata will appear in a single block at the beginning of the document.</p>
+<p>Note that YAML escaping rules must be followed. Thus, for example, if a title contains a colon, it must be quoted. The pipe character (|) can be used to begin an indented block that will be interpreted literally, without need for escaping. This form is necessary when the field contains blank lines or block-level formatting:</p>
+<figure>
+<img src="images/esponjia.png" alt="another png" width="300" height="200" /><figcaption>another png</figcaption>
+</figure>
+<h2 id="section-2.1">section 2.1</h2>
+<p>Just be sure that the YAML file begins with — and ends with — or ….) Alternatively, you can use the –metadata-file option. Using that approach however, you cannot reference content (like footnotes) from the main markdown input document.</p>
+<p>Metadata will be taken from the fields of the YAML object and added to any existing document metadata. Metadata can contain lists and objects (nested arbitrarily), but all string scalars will be interpreted as Markdown. Fields with names ending in an underscore will be ignored by pandoc. (They may be given a role by external processors.) Field names must not be interpretable as YAML numbers or boolean values (so, for example, yes, True, and 15 cannot be used as field names).</p>
+<p>A document may contain multiple metadata blocks. If two metadata blocks attempt to set the same field, the value from the second block will be taken.</p>
+<p>When pandoc is used with -t markdown to create a Markdown document, a YAML metadata block will be produced only if the -s/–standalone option is used. All of the metadata will appear in a single block at the beginning of the document.</p>
+<figure>
+<img src="images/esponjia.png" alt="another png" width="300" height="200" /><figcaption>another png</figcaption>
+</figure>
+<p>Note that YAML escaping rules must be followed. Thus, for example, if a title contains a colon, it must be quoted. The pipe character (|) can be used to begin an indented block that will be interpreted literally, without need for escaping. This form is necessary when the field contains blank lines or block-level formatting:</p>
+<h2 id="section-2.2">section 2.2</h2>
+<p>Just be sure that the YAML file begins with — and ends with — or ….) Alternatively, you can use the –metadata-file option. Using that approach however, you cannot reference content (like footnotes) from the main markdown input document.</p>
+<p>Metadata will be taken from the fields of the YAML object and added to any existing document metadata. Metadata can contain lists and objects (nested arbitrarily), but all string scalars will be interpreted as Markdown. Fields with names ending in an underscore will be ignored by pandoc. (They may be given a role by external processors.) Field names must not be interpretable as YAML numbers or boolean values (so, for example, yes, True, and 15 cannot be used as field names).</p>
+<p>A document may contain multiple metadata blocks. If two metadata blocks attempt to set the same field, the value from the second block will be taken.</p>
+<figure>
+<img src="images/esponjia.png" alt="another png" width="300" height="200" /><figcaption>another png</figcaption>
+</figure>
+<p>When pandoc is used with -t markdown to create a Markdown document, a YAML metadata block will be produced only if the -s/–standalone option is used. All of the metadata will appear in a single block at the beginning of the document.</p>
+<p>Note that YAML escaping rules must be followed. Thus, for example, if a title contains a colon, it must be quoted. The pipe character (|) can be used to begin an indented block that will be interpreted literally, without need for escaping. This form is necessary when the field contains blank lines or block-level formatting</p>
+</body>
+</html>
